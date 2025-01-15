@@ -44,7 +44,7 @@
 | Figura 2 |
 
 
-## Objetivo do Desafio - Aula 3: Criar um cluster kubernetes(EKS) na AWS
+## Objetivo do Desafio - Aula 3: Criar um cluster kubernetes(EKS) na AWS e realizar deploy da aplicação fakeshop neste cluster
 
 ### Passo a passo realizado para concluir o desafio:
 
@@ -67,7 +67,3 @@
 | ![aplicacao.png](/fake-shop/images/aplicacao.png) |
 |:-----------------------------:|
 | Figura 4 |
-
-| ![nodes.png](/fake-shop/images/nodes.png) |
-|:-----------------------------:|
-| Figura 5 |
