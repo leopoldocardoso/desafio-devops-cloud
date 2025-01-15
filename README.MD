@@ -7,7 +7,7 @@
 - Configurar docker na máquina local.
 - Criar um dockerfile.
 - Executar contêiner a partir da imagem gerada e garantir que aplicação esteja acessível na porta 5000.
-- Enviar a imagem para o Dockerhub
+- Enviar a imagem para o Dockerhub.
 
 ### Print da aplicação em funcionamento
 
@@ -40,5 +40,30 @@
 ### Print do deployment, do pod em execução no cluster
 
 | ![deployment.png](/conversao-distancia/images/deployment.png) |
+|:-----------------------------:|
+| Figura 2 |
+
+
+## Objetivo do Desafio - Aula 3: Criar um cluster kubernetes(EKS) na AWS
+
+### Passo a passo realizado para concluir o desafio:
+
+- Acesso a conta AWS.
+- Criação de uma VPC para ser utilizada pelo cluster usando Cloud AWS Formation.
+- Realizado Criação do Cluster EKS através da console AWS.
+- Criação de imagem docker com aplicação fake-shop. 
+  - Esta aplicação é feita em python
+  - Utiliza banco de dados postgres que está sendo executado no EKS.
+- Criação do manifesto de deployment utilizando a imagem criada anteriormente.
+- Realização do deployment da aplicação no cluster kubernetes - EKS.
+
+# Print da aplicação
+
+| ![deployment.png](/fake-shop/images/deployment.png) |
+|:-----------------------------:|
+| Figura 3 |
+
+
+| ![aplicacao.png](/fake-shop/images/aplicacao.png) |
 |:-----------------------------:|
 | Figura 2 |
