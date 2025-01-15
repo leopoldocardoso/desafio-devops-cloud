@@ -2,7 +2,7 @@
 
 ## Objetivo do Desafio - Aula 1: Criar um ambiente docker para uma aplicação demo desenvolvida em python.
 
-## Passo a passo realizado para concluir o desafio:
+### Passo a passo realizado para concluir o desafio:
 
 - Configurar docker na máquina local.
 - Criar um dockerfile.
@@ -19,7 +19,7 @@
 
 ## Objetivo do Desafio - Aula 2: Configurar um cluster kubernetes local utilizando k3d
 
-## Passo a passo realizado para concluir o desafio:
+### Passo a passo realizado para concluir o desafio:
 
 - Instalação do cluster k3d no Linux utilizando o comando:
 
