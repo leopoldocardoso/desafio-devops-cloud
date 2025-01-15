@@ -66,4 +66,4 @@
 
 | ![aplicacao.png](/fake-shop/images/aplicacao.png) |
 |:-----------------------------:|
-| Figura 2 |
+| Figura 4 |
