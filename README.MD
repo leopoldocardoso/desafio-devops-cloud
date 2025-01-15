@@ -31,7 +31,7 @@
 
 - Criar o manifesto deployment.yaml para a aplicação conversao-distancia fosse executada em um ambiente kubernetes. Link do manifesto abaixo:
 
- Link: [manifesto conversao-distancia](https://github.com/leopoldocardoso/desafio-devops-cloud/tree/main/k8s)
+  Link do manifesto: [manifesto conversao-distancia](https://github.com/leopoldocardoso/desafio-devops-cloud/tree/main/k8s)
 
 - Criar o Deployment com o comando:
 
