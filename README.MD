@@ -9,13 +9,13 @@
 - Executar contêiner a partir da imagem gerada e garantir que aplicação esteja acessível na porta 5000.
 - Enviar a imagem para o Dockerhub
 
-### Print da aplicação em funcionamento 
+### Print da aplicação em funcionamento
 
 | ![conversao-distancia.png](/conversao-distancia/images/conversao-distancia.png) |
 |:-----------------------------:|
 | Figura 1 |
 
-------------------------------------------------------------------------------------------------------------
+-----
 
 ## Objetivo do Desafio - Aula 2: Configurar um cluster kubernetes local utilizando k3d
 
@@ -31,4 +31,14 @@
 
 - Criar o manifesto deployment.yaml para a aplicação conversao-distancia fosse executada em um ambiente kubernetes. Link do manifesto abaixo:
 
-[manifesto conversao-distancia](https://github.com/leopoldocardoso/desafio-devops-cloud/tree/main/k8s)
+ Link: [manifesto conversao-distancia](https://github.com/leopoldocardoso/desafio-devops-cloud/tree/main/k8s)
+
+- Criar o Deployment com o comando:
+
+  ``` kubectl create -f k8s/deployment.yaml ```
+
+### Print do deployment, do pod em em execução no cluster
+
+| ![deployment.png](/conversao-distancia/images/deployment.png) |
+|:-----------------------------:|
+| Figura 2 |
