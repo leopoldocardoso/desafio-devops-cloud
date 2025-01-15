@@ -37,7 +37,7 @@
 
   ``` kubectl create -f k8s/deployment.yaml ```
 
-### Print do deployment, do pod em em execução no cluster
+### Print do deployment, do pod em execução no cluster
 
 | ![deployment.png](/conversao-distancia/images/deployment.png) |
 |:-----------------------------:|
