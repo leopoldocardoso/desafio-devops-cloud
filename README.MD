@@ -67,3 +67,7 @@
 | ![aplicacao.png](/fake-shop/images/aplicacao.png) |
 |:-----------------------------:|
 | Figura 4 |
+
+| ![nodes.png](/fake-shop/images/nodes.png) |
+|:-----------------------------:|
+| Figura 5 |
