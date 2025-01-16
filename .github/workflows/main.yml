@@ -46,7 +46,8 @@ jobs:
         
       
         - name: Configurar o Kubectl
-          run: echo "Executando o comando aws eks update-kubeconfig"
+          run:  aws eks update-kubeconfig --name aula-eks-cicd
+
 
 
         - name: Deploy dos manifestos Kubernetes
