@@ -20,7 +20,6 @@ jobs:
 
 
       - name: Construção e envio da Imagem Docker
-        run: echo "Executando o comando Docker build"
         uses: docker/build-push-action@v6
         with:
           context: fake-shop/src
