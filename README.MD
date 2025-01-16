@@ -57,7 +57,7 @@
   - Utiliza banco de dados postgres que está sendo executado no EKS.
 - Criação do manifesto de deployment utilizando a imagem criada anteriormente.
 - Realização do deployment da aplicação no cluster kubernetes - EKS.
-- Link da imagem da aplicação fake-sho no Dockerhub: https://hub.docker.com/repository/docker/leopoldopeixoto/fake-shop/general
+- Link da imagem da aplicação fake-shop no Dockerhub: https://hub.docker.com/repository/docker/leopoldopeixoto/fake-shop/general
 
 # Print da aplicação
 
