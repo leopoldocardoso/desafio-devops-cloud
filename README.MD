@@ -8,6 +8,7 @@
 - Criar um dockerfile.
 - Executar contêiner a partir da imagem gerada e garantir que aplicação esteja acessível na porta 5000.
 - Enviar a imagem para o Dockerhub.
+- Link da imagem conversao-distancia no Dockerhub: https://hub.docker.com/repository/docker/leopoldopeixoto/conversao-distancia/general
 
 ### Print da aplicação em funcionamento
 
@@ -56,6 +57,7 @@
   - Utiliza banco de dados postgres que está sendo executado no EKS.
 - Criação do manifesto de deployment utilizando a imagem criada anteriormente.
 - Realização do deployment da aplicação no cluster kubernetes - EKS.
+- Link da imagem da aplicação fake-sho no Dockerhub: https://hub.docker.com/repository/docker/leopoldopeixoto/fake-shop/general
 
 # Print da aplicação
 
