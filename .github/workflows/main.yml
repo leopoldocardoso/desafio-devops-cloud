@@ -58,4 +58,5 @@ jobs:
              manifests: |
                fake-shop/k8s/deployment.yaml
              images: |
-                leopoldopeixoto/fake-shop:v${{  github.run_number }
+               leopoldopeixoto/fake-shop:v${{  github.run_number }}
+                
