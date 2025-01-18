@@ -22,9 +22,9 @@ jobs:
       - name: Construção e envio da Imagem Docker
         uses: docker/build-push-action@v6
         with:
-          context: fake-shop/k8s/
+          context: ./fake-shop/src
           push: true
-          file: fake-shop/k8s/deployment.yaml
+          file: ffake-shop/src/Dockerfile
           tags: | 
             leopoldopeixoto/fake-shop:latest
             leopoldopeixoto/fake-shop:v${{  github.run_number }}
