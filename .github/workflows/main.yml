@@ -22,9 +22,9 @@ jobs:
       - name: Construção e envio da Imagem Docker
         uses: docker/build-push-action@v6
         with:
-          context: ./fake-shop/src
+          context: fake-shop/src
           push: true
-          file: ffake-shop/src/Dockerfile
+          file: fake-shop/src/Dockerfile
           tags: | 
             leopoldopeixoto/fake-shop:latest
             leopoldopeixoto/fake-shop:v${{  github.run_number }}
@@ -52,10 +52,10 @@ jobs:
         - name: Configurar o Kubectl
           run:  aws eks update-kubeconfig --name aula-cicd-eks
 
-        - name: Deploy dos manifestos Kubernetes
-          uses: Azure/k8s-deploy@v5
-          with:
-             manifests: |
-               fake-shop/k8s/deployment.yaml
-             images: |
-                leopoldopeixoto/fake-shop:v${{  github.run_number }}
+        # - name: Deploy dos manifestos Kubernetes
+        #   uses: Azure/k8s-deploy@v5
+        #   with:
+        #      manifests: |
+        #        fake-shop/k8s/deployment.yaml
+        #      images: |
+        #         leopoldopeixoto/fake-shop:v${{  github.run_number }}
