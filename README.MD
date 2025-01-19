@@ -69,3 +69,28 @@
 | ![aplicacao.png](/fake-shop/images/aplicacao.png) |
 |:-----------------------------:|
 | Figura 4 |
+
+
+## Objetivo do Desafio - Aula 3: Configuração Pipeline Github Actions e Monitoramento com Prometheus Grafana
+
+### Passo a passo realizado para concluir o desafio:
+
+- Criação de Pipeline CI/CD no Github Actions:
+    - Etapa de CI: realiza a construção da imagem Docker da aplicação fakeshop
+    - Etapa de CD: realiza o deployment da aplicação no EKS
+- Deployment do Prometheus no cluster EKS
+- Importação do JSON de criação do dashboard no Prometheus
+
+# Prints
+
+## Print Workflow CI/CD
+
+| ![cicd.png](/fake-shop/images/cicd.png) |
+|:-----------------------------:|
+| Figura 5 |
+
+## Print do Dashboard
+
+| ![dash_prometheus.png](/fake-shop/images/dash_prometheus.png) |
+|:-----------------------------:|
+| Figura 6 |
